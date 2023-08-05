@@ -347,7 +347,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   The blackand white image on the home screen and the background are from my own pictures from 2018 in Arinsal, Andorra.
+-   The image in the H1 title is the property of Ungureanu Alexandra, Shutterstock and I found it here https://www.collinsdictionary.com/dictionary/english/noughts-and-crosses.
 -   The guide page images are from as follows:
 
 
