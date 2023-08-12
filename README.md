@@ -2,7 +2,7 @@
 
 [View the live project here.](https://mitchduke.github.io/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/)
 
-This is a site aimed at providing guidance and advice for people taking their first time winter sports holidays to make it as enjoyable experience as possible.
+This is a browser base game of noughts and crosses or tic tac toe to be played between two people for fun.
 
 <h2 align="center"><img src="./assets/images/wireframes_complete.PNG"></h2>
 

@@ -1,4 +1,7 @@
-console.log("connected")
-let greeting = "Hello World!"
+//base variables
 
-console.log(greeting)
+let board = ['', '', '', '', '', '', '', '', '']:
+let currentPlayer = 'X';
+let player1Score = 0;
+let player2Score = 0;
+
