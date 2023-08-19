@@ -36,8 +36,22 @@ h1 {
     cursor: pointer;
 }
 
+.cell.x {
+    border: 3px solid blue;
+}
+
+.cell.o {
+    border: 3px solid red;
+}
+
+
 #scoreboard {
     margin-top: 20px;
+}
+
+#player1Score,
+#plpayer2Score {
+    margin-right: 5px;
 }
 
 

@@ -1,6 +1,6 @@
 //base variables
 
-let board = ['', '', '', '', '', '', '', '', '']:
+let board = ['', '', '', '', '', '', '', '', ''];
 let currentPlayer = 'X';
 let player1Score = 0;
 let player2Score = 0;
@@ -23,7 +23,7 @@ function makeMove(index) {
     if (board[index] === '') {
         board[index] = currentPlayer;
         cells[index].textContent = currentPlayer;
-        cells[index].classList.add(currentPlayer);
+        cells[index].classList.add(currentPlayer.toLowerCase());
         checkWin();
         switchPlayer();
     }
@@ -60,36 +60,51 @@ function checkWin() {
 // Handle a win
 
 function handleWin(player) {
-    if (plater === 'X') {
+    if (player === 'X') {
         player1Score++;
         player1ScoreElement.textContent = player1Score;
     } else {
         player2Score++;
-        player1ScoreElement.textContent = player2Score;
+        player2ScoreElement.textContent = player2Score;
     }
 
     resetBoard();
-    alert('Player ${player} wins!');
+    alert(`Player ${player} wins!`);
 };
 
 // Handle a draw
 
 function handleDraw() {
     resetBoard();
-    alert('Its a draw, try again!');
+    alert(`Its a draw, try again!`);
 };
 
 // Reset the game
 
 function resetGame() {
-    
+    resetBoard();
+    player1Score = 0;
+    player2Score = 0;
+    player1ScoreElement.textContent = '0';
+    player2ScoreElement.textContent = '0';
 };
 
 // Reset the board
 
 function resetBoard() {
-
+    board = ['', '', '', '', '', '', '', '', ''];
+    currentPlayer = 'X';
+    cells.forEach(cell => {
+        cell.textContent = '';
+        cell.className = 'cell';
+    });
 };
+
+const resetButton = document.querySelector(".resetButton");
+resetButton.addEventListener("click", resetGame);
 
 // Setup a game
 resetBoard();
+
+
+
