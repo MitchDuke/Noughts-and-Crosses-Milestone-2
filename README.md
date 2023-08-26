@@ -1,6 +1,6 @@
-<h1 align="center">The Boardroom</h1>
+<h1 align="center">Noughts & Crosses</h1>
 
-[View the live project here.](https://mitchduke.github.io/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/)
+[View the live project here.](https://mitchduke.github.io/Noughts-and-Crosses-Milestone-2/)
 
 This is a browser base game of noughts and crosses or tic tac toe to be played between two people for fun.
 
