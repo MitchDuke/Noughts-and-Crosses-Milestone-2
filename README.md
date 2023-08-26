@@ -4,26 +4,18 @@
 
 This is a browser base game of noughts and crosses or tic tac toe to be played between two people for fun.
 
-<h2 align="center"><img src="./assets/images/wireframes_complete.PNG"></h2>
+<h2 align="center"><img src="./assets/images/Wireframe_1.PNG"></h2>
 
 ## Table of Contents
 
 1.  [User Experience](#user-experience-ux)
     -   [Design](#design)
     -   [Wireframes](#wireframes)
-        -   [Home Page Wireframe](#home-page-wireframe---view)
-        -   [Guide Page Wireframe](#guide-page-wireframe---view)
-        -   [Contact Us Wireframe](#contact-us-page-wireframe---view)
-        -   [Mobile Wireframe](#mobile-wireframe---view)
 
 2.  [The Final Design](#the-final-design)
-    -   [Home Page](#home-page)
-    -   [Guide Page](#guide-page)
-    -   [Contact Us](#contact-us-page)
+    -   [Main](#Main-page)
 
 3.  [Features](#features)
-    -   [Background](#background-image)
-    -   [Navbar](#navbar)
     -   [Page Content](#page-content)
 
 4.  [Technologies Used](#technologies-used)
@@ -81,29 +73,12 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 
 *   ### Wireframes
 
-    -   #### Home Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_home.PNG)
-        -   <img src="./assets/images/wireframes_home.PNG">
-    -   #### Guide Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_guide.PNG)
-        -   <img src="./assets/images/wireframes_guide.PNG">
-    -   #### Contact Us Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_form.PNG)
-        -   <img src="./assets/images/wireframes_form.PNG">
-    -   #### Mobile Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_mobile.PNG)
-        -   <img src="./assets/images/wireframes_mobile.PNG">
+    -   #### Main Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_home.PNG)
 
 ## The Final Design
 
--   ### Home Page
+-   ### Main Page
     -   <img src="./assets/images/home_1.1.PNG">
-    -   <img src="./assets/images/home_1.2.PNG">
-
--   ### Guide Page
-    -   <img src="./assets/images/guide_1.1.PNG">
-    -   <img src="./assets/images/guide_1.2.PNG">
-    -   <img src="./assets/images/guide_1.3.PNG">
-
--   ### Contact Us Page
-    -   <img src="./assets/images/form_1.1.PNG">
-    -   <img src="./assets/images/form_1.2.PNG">
 
 ## Features
 
