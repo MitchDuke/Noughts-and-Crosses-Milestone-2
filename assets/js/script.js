@@ -1,5 +1,4 @@
-//base variables
-
+// base variables
 let board = ['', '', '', '', '', '', '', '', ''];
 let currentPlayer = 'X';
 let player1Score = 0;
@@ -11,100 +10,88 @@ const player1ScoreElement = document.getElementById('player1Score');
 const player2ScoreElement = document.getElementById('player2Score');
 
 // click event listeners for cells
-
 cells.forEach((cell, index) => {
-    cell.addEventListener('click', () => makeMove(index));
+  cell.addEventListener('click', () => makeMove(index));
 });
 
-
 // Make a move in game
-
 function makeMove(index) {
-    if (board[index] === '') {
-        board[index] = currentPlayer;
-        cells[index].textContent = currentPlayer;
-        cells[index].classList.add(currentPlayer.toLowerCase());
-        checkWin();
-        switchPlayer();
-    }
-};
+  if (board[index] === '') {
+    board[index] = currentPlayer;
+    cells[index].textContent = currentPlayer;
+    cells[index].classList.add(currentPlayer.toLowerCase());
+    checkWin();
+    switchPlayer();
+  }
+}
 
 // Switch between players
-
 function switchPlayer() {
-    currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-};
-
-//Check for winner function
-
-function checkWin() {
-    const winningCombinations = [
-        [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
-        [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
-        [0, 4, 8], [2, 4, 6] // Diagonals
-    ];
-
-    for (const combination of winningCombinations) {
-        const [a, b, c] =combination;
-        if (board[a] && board[a] === board[b] && board[a] === board[c]) {
-            handleWin(board[a]);
-            return;
-        }
-    }
-
-    if (board.every(cell => cell !== '')) {
-        handleDraw();
-    }
-};
+  currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+}
 
 // Handle a win
-
 function handleWin(player) {
-    if (player === 'X') {
-        player1Score++;
-        player1ScoreElement.textContent = player1Score;
-    } else {
-        player2Score++;
-        player2ScoreElement.textContent = player2Score;
-    }
+  if (player === 'X') {
+    player1Score++;
+    player1ScoreElement.textContent = player1Score;
+  } else {
+    player2Score++;
+    player2ScoreElement.textContent = player2Score;
+  }
 
-    resetBoard();
-    alert(`Player ${player} wins!`);
-};
+  resetBoard();
+  alert(`Player ${player} wins!`);
+}
 
 // Handle a draw
-
 function handleDraw() {
-    resetBoard();
-    alert(`Its a draw, try again!`);
-};
+  resetBoard();
+  alert('Its a draw, try again!');
+}
+
+// Check for winner function
+function checkWin() {
+  const winningCombinations = [
+    [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+    [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+    [0, 4, 8], [2, 4, 6] // Diagonals
+  ];
+
+  for (const combination of winningCombinations) {
+    const [a, b, c] = combination;
+    if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+      handleWin(board[a]);
+      return;
+    }
+  }
+
+  if (board.every(cell => cell !== '')) {
+    handleDraw();
+  }
+}
 
 // Reset the game
-
 function resetGame() {
-    resetBoard();
-    player1Score = 0;
-    player2Score = 0;
-    player1ScoreElement.textContent = '0';
-    player2ScoreElement.textContent = '0';
-};
+  resetBoard();
+  player1Score = 0;
+  player2Score = 0;
+  player1ScoreElement.textContent = '0';
+  player2ScoreElement.textContent = '0';
+}
 
 // Reset the board
-
 function resetBoard() {
-    board = ['', '', '', '', '', '', '', '', ''];
-    currentPlayer = 'X';
-    cells.forEach(cell => {
-        cell.textContent = '';
-        cell.className = 'cell';
-    });
-};
+  board = ['', '', '', '', '', '', '', '', ''];
+  currentPlayer = 'X';
+  cells.forEach(cell => {
+    cell.textContent = '';
+    cell.className = 'cell';
+  });
+}
 
 const resetButton = document.querySelector(".resetButton");
 resetButton.addEventListener("click", resetGame);
 
 // Setup a game
 resetBoard();
-
-
-

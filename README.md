@@ -78,7 +78,7 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 ## The Final Design
 
 -   ### Main Page
-    -   <img src="./assets/images/home_1.1.PNG">
+    -   <img src="./assets/images/Wireframe_1.PNG">
 
 ## Features
 
@@ -86,32 +86,13 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 
 -   Interactive elements
 
-### Background image
-
--   The background image is meant to provokeve feelings of warmth and welcome to the user without distracting from the main content.
-
-### Navbar 
-
--   The navbar along the top is clear and unambigous in its use but subtle enough to not distract from the site content and is locked to the top of the page to allow easy navigation from any 
-    point within the site.
--   The page titles in the navbar have a hover function to give the user some visual feedback from their interactions.
-
 ### Page Content
 
--   Each page has each point broken down into smaller sections to avoid cognitive overload, the same styling is used through out the site to maintain conformity and provoke a sense of 
-    famililarity across the site.
-    -   Home Page
-        -   The home page has a brief few highlights of the reasons why you can take up a wintersport and travel around the world to do so.
-        -   It lists out a few examples of the things you should consider as a first time traveller.
-    -   Guide Page
-        -   The guide page lists various locations around the world that you can visit for a winter sports holiday.
-        -   The guide page is broken into sections related to locations in Europe and then a section for loacations around the world.
-        -   Each segment has a brief synopsis of the location with a small list of pros and cons for travelling there.
-    -   Contact Us Page
-        -   The contact us page has a form that can be submitted for asking a specific question regarding taking a wintyer sports holiday.
-        -   The form has a a textarea and required personal details sections with a radio button followed by the submit "lets go" button below.
-        -   There is a paragraph explaining the purpose of the form along with a redirect action on "HERE" to direct users to the social medial links.
-        -   There are visitor testimonials found below the form for users to see visual prof of the site authenticity.   
+-   The main page is very rudimentary in its use and is immediately obvious of its purpose and how it is used.
+-   The cells are clicked to activate the game using an event listener for the click.
+-   Once the game is won it automatically tallies up the score for each player then alternates to the other 
+    player allowing the other player to go 1st.
+-   The is a simple reset button to set the scores back to zero.
 
 ## Technologies Used
 
@@ -119,21 +100,16 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes..
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Gimp:](https://www.gimp.org/)
-    - Gimp was used for resizing images and editing photos for the website.
 1. [Figma:](https://www.figma.com/)
     - Figma was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -145,28 +121,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [ValidateJavaScript]https://validatejavascript.com/ - [Results](https://github.com/)
 
 -   Using the above mentioned validators the following error logs have been recorded and actioned upon.
     -   index.html error log
-        -   <img src="./assets/images/error_log_1.1.PNG">
-        -   <img src="./assets/images/error_log_1.2.PNG">
-        -   <img src="./assets/images/error_log_1.3.PNG">
-        -   <img src="./assets/images/error_log_1.4.PNG">
+        -   <img src="./assets/images/HTML_Validate_1.PNG">
 
     -   index.html error log resolved
-        -   <img src="./assets/images/error_log_1.1_fixed.PNG">
+        -   <img src="./assets/images/HTML_Validate_2_Fixed.PNG">
 
-    -   guide.html error log no errors found
-        -   <img src="./assets/images/error_log_2.1.PNG">
+    -   style.css error log
+        -   <img src="./assets/images/CSS_Validate_1.PNG">
+        -   <img src="./assets/images/CSS_Validate_2.PNG">            
+        -   <img src="./assets/images/CSS_Validate_3.PNG">
 
-    -   form.html error log
-        -   <img src="./assets/images/error_log_3.1.PNG">
-    
-    -   form.html error log resolved
-        -   <img src="./assets/images/error_log_3.1_fixed.PNG">
-
-    -   style.css error log no errors found
-        -   <img src="./assets/images/error_log_css.PNG">
+    -   JavaScript error log
+        -   <img src="./assets/images/JS_Validate_1.PNG">
 
 ### Performance
 
