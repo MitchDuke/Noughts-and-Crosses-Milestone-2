@@ -50,30 +50,26 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the game.
+        2. As a First Time Visitor, I want to be able to easily use the game.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about winter sports holidays.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to find it easy to play again.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added guides or advice.
+        1. As a Frequent User, I want to be able to play the game and it be obvious how to play.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are  hex #555555 grey for text, rgb(64, 179, 186) and white, both utilising alpha to suit the background but allow text to still be legible.
+        -   The main colours used are  rgb (0, 0, 255) Blue for the board tiles, rgb(255, 0, 0) Red for the title and when "O" is played in a tile the its border turns red and rgb (175, 175, 175) grey for the backgroung based on feedback about large areas of white on screen made for a poor user experience.
     -   #### Typography
-        -   The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald font is a rework of the alternate Gothic font to better fit the pixel grid of modern displays, it is clean and legible.
-    -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site
+            correctly. Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settle in to their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
 
 *   ### Wireframes
 
-    -   #### Main Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_home.PNG)
+    -   #### Main Page Wireframe - [View](https://github.com/MitchDuke/Noughts-and-Crosses-Milestone-2/blob/main/assets/images/Wireframe_1.PNG)
 
 ## The Final Design
 
