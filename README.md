@@ -84,9 +84,11 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 
 ### Page Content
 
--   The main page is very rudimentary in its use and is immediately obvious of its purpose and how it is used.
+-   The main page is simplistic in its use and appearance, it is immediately obvious of its 
+    purpose and how it is used.
 -   The cells are clicked to activate the game using an event listener for the click.
--   Once the game is won it automatically tallies up the score for each player then alternates to the other 
+-   Once the game is won it automatically tallies up the score for each player then 
+    alternates to the other 
     player allowing the other player to go 1st.
 -   The is a simple reset button to set the scores back to zero.
 
@@ -108,6 +110,8 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Figma:](https://www.figma.com/)
     - Figma was used to create the [wireframes](https://github.com/) during the design process.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google Fonts was used to stlye the text elements of the game.
 
 ## Testing
 
@@ -115,8 +119,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Validation
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
+    [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
+    (https://github.com/)
 -   [ValidateJavaScript]https://validatejavascript.com/ - [Results](https://github.com/)
 
 -   Using the above mentioned validators the following error logs have been recorded and actioned upon.
@@ -140,59 +146,52 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
 
 -   [Google Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
 
--   Using the above referrenced tools each page was tested in desktop and mobile versions and the reocrds from the test are as follows.
-    -   Home Page Desktop
-    -   <img src="./assets/images/home_performance_desktop.PNG">
-    -   Home Page Mobile
-    -   <img src="./assets/images/home_performance_mobile.PNG">
-    -   Guide Page Desktop
-    -   <img src="./assets/images/guide_performance_desktop.PNG">
-    -   Guide Page Mobile
-    -   <img src="./assets/images/guide_performance_mobile.PNG">
-    -   Contact Us Desktop
-    -   <img src="./assets/images/form_performance_form.PNG">
-    -   Contact Us Mobile
-    -   <img src="./assets/images/form_performance_mobile.PNG">
+-   Using the above referrenced tools each page was tested in desktop and mobile versions 
+    and the reocrds from the test are as follows.
+    -   Main Page Desktop
+    -   <img src="./assets/images/Lighthouse_1.PNG">
+    -   <img src="./assets/images/Lighthouse_2.PNG">
+    -   Main Page Mobile
+    -   <img src="./assets/images/Lighthouse_Mobile.PNG">
    
-The overall performance is average and this is down to using multiple .PNG file types for the images. These should be changed to a more web friendly format to improve site performance.
+    The overall performance is high due its simplistic nature.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Microsoft Edge, Firefox browsers and their mobile equivalents.
+-   The Game was tested on Google Chrome, Microsoft Edge, Firefox browsers and their mobile 
+    equivalents.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S20A.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Friends and family members were asked to review the site and documentation to point out 
+    any bugs and/or user experience issues.
+-   Friends who work in the programming industry were involved in debugging the code.
 
 ### Further Improvements
 
--   Due to the average score in testing and the loading speed particularly in Chrome and on mobile the future aim would be to use msmaller resolution images to speed up load times on these 
-    platforms.
+-   The game could be improved by adding more styling to the page to make it more visually 
+    interesting.
+-   A high score count to keep track of multiple games
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the gamne 
+        and learn how to play.
 
-        1. When entering the site, users are presented with a clear and easily readable navigation bar making it very obvious where each link will send them. Beneath the navigation bar is a welcoming, friendly Hero Image with Text highlighting the purppose of the site.
-        2. The hero image represents the fun of winter sports and attempts give a positive feeling to the visitor.
-        3. The user has option, to click on one of the navigation links to either the guide page to a short synopsis of various resorts from the perspective of a beginner and to the contact us page where they can ask questions related to anything winter sports related, or they can scroll down to read the reasons for going on a winter holiday content.
+        1. When entering the game, users are presented with a clear game board containing a
+        3x3 grid of empty cells. It's visually evident that this is a game of Noughts & Crosses (Tic-Tac-Toe) as the grid resembles the games layout.
+        2. The games title "Noughts & Crosses" and the player symbols, X and O, provide a clear indication of the games purpose.
+        3. The user has option to click on any cell in the grid to make their move.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to be able to easily navigate and understand the     
+        games interface.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar which remains fixed at the top even when scrolling to allow the user to navigate to any other page within the site at any time, even when at the bottom of the page. It is clear what each link is for and where it will take the user.
-        2. On the Contact Us Page, after a form response is submitted, the page takes the user to the code insitute form dump submission result page.
-
-    3. As a First Time Visitor, I want there to be testimonials to understand what their users think of them and see if they are trusted. The pages social media links should be easily found so 
-        the company can be checked for their online presence and see if they are ative.
-    
-        1. Once the new visitor has read the why go on a winter sports holiday, scrolling down they will find the small section of things to consider section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. On the Contact Us page, next to the contact form the user can click on the here at the end of the paragraph which redirects them to the social links in the footer so they can contact the organisation on social media.
+        1. The games interface has been designed to be intuitive and usser-friendly. The game board is prominently displyed, and it's evident that users can click on the cells to make their move.
+        2. There are no distracting elements, and the game's layout is straightforward, ensuring that users can focus on playing the game without confusion.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    1. As a Returning !!!!! Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. Here they can fill out the form on the page or are told that alternatively they can message the organisation via either of their social media platforms.
