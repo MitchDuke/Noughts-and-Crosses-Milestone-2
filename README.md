@@ -161,69 +161,63 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
 -   The Game was tested on Google Chrome, Microsoft Edge, Firefox browsers and their mobile 
     equivalents.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S20A.
--   Friends and family members were asked to review the site and documentation to point out 
-    any bugs and/or user experience issues.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 -   Friends who work in the programming industry were involved in debugging the code.
 
 ### Further Improvements
 
--   The game could be improved by adding more styling to the page to make it more visually 
-    interesting.
--   A high score count to keep track of multiple games
+-   The game could be improved by adding more styling to the page to make it more visually interesting.
+-   A high score count to keep track of multiple games using a database to store the scores.
+-   Adding a simpe back ground may make it more visually appealing.
+-   To be able to play a game against an opponent on different devices.
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the gamne 
-        and learn how to play.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the game 
+    and learn how to play.
 
         1. When entering the game, users are presented with a clear game board containing a
         3x3 grid of empty cells. It's visually evident that this is a game of Noughts & Crosses (Tic-Tac-Toe) as the grid resembles the games layout.
         2. The games title "Noughts & Crosses" and the player symbols, X and O, provide a clear indication of the games purpose.
         3. The user has option to click on any cell in the grid to make their move.
 
-    2. As a First Time Visitor, I want to be able to easily navigate and understand the     
-        games interface.
+    2. As a First Time Visitor, I want to be able to easily navigate and understand the  games interface.
 
         1. The games interface has been designed to be intuitive and usser-friendly. The game board is prominently displyed, and it's evident that users can click on the cells to make their move.
         2. There are no distracting elements, and the game's layout is straightforward, ensuring that users can focus on playing the game without confusion.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning !!!!! Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    1. As a Returning Visitor, I want toenjoy a game of Noughts & Crosses without any hassle or having to remember how to play the game.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation via either of their social media platforms.
-        3. The footer contains links to the organisations Facebook, Twitter, Youtube and Instagram pages.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        1. The game board remains easily accessible, and players can quickly start a new game by clicking the "Reset Game" button.
+        2. Theres no need to navigate through complex menus or instructions, allowing returning visitors to jump right into the game.
 
-    2. As a Returning Visitor, I want to find the Facebook page link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page and Guide page to find the Facebook page link.
+    2. As a Returning Visitor, I want to keep track of my wins.
+        1. The game keeps a tally of wins for both Player 1 (X) and Player 2 (O). The scores are prominently displayed, allowing returning visitors to see their progress whilst they play the game.
+        2. The "Player 1" and "Player2" labels beside the scores keep the game enganging and provide clarity on which player is which.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added locations to the Guide page.
+    1. As a Frequent User, I want to challenge my friends to a game of Noughts & Crosses.
 
-        1. The user would already be comfortable with the website layout and can easily click the link at the top.
+        1. Frequent users are already familiar with the game's interface and can easily invite friends to play by taking turns on the same device.
+        2. The straighforward design ensures that the focus remains on the gameplay.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to enjoy the game without distractions.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The game of Noughts & Crosses provides a clean and immersive experience without any intrusive as or unrelated content.
+        2. Frequent users can simply concentrate on having a fun game.
 
-    3. As a Frequent User, I want to ask questions so that I can have the best holiday experience based on the guidance provided.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. There is a "lets Go" button to the left hand side below the input field which is located close to the field and can easily be distinguished.
-
+    3. As a Frequent User, I want to be able to keep track of my overall score whilst playing or reset the game to begin again.
+        1. Frequent users can reset the game at any time by clicking the "Reset Game" button.
+        2. The scores for both players are continuosly updated, allowing frequent users to compete and keep a record of their performance during a series of games.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
--   On high resolution wide screens the hero image will scale proportionatly and take up the whole screen width, otherwise it would either leave the background exposed or white lines down 
-    each side if it is contrained.
--   On screen resolutions smaller than 443px the font awesome icon would displace below the the text of "Got a question for us?"
-    -  A media querry has been added to hide it below 443px screen resolutions.  
+-   On high resolution wide screens the Image next to the Title becomes small but stretching it into a larger size made it pixellated so its size has remained a constant. 
 
 ## Deployment
 
@@ -277,8 +271,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The  hero image came from [Unsplash](https://unsplash.com/@gladegoggles)
-
 -   [Font awesome](https://fontawesome.com/): Font Awesome was used through out the project to add styling to headings.
 
 ### Content
@@ -288,13 +280,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Media
 
 -   The image in the H1 title is the property of Ungureanu Alexandra, Shutterstock and I found it here https://www.collinsdictionary.com/dictionary/english/noughts-and-crosses.
--   The guide page images are from as follows:
-
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 -   My tutor for his support and guidance throughout the project.
+-   My step children and wife for playing the game trying to break it with high scores and using their phones to test it on smaller devices.
 -   My friend Simon Nightingale who helped me test the project on various platforms and browsers.
 -   Tutor support at Code Institute for their support.
--   Inspiration has been taken from both the Love running and Whiskey drop projects.
