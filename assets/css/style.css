@@ -13,6 +13,11 @@ h1 {
     color: rgb(199, 16, 16);
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
 .logo {
     height: 40px;
     padding-right: 5px;
@@ -72,6 +77,9 @@ p {
     font-size: 1.2rem;
 }
 
+.guide {
+    margin-top: 0;
+}
 
 @media (max-width: 350px) {
     #board {
