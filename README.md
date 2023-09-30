@@ -178,23 +178,24 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
     1. As a First Time Visitor, I want to easily understand the main purpose of the game 
     and learn how to play.
 
-        1. When entering the game, users are presented with a clear game board containing a
+        1. When loading the page the user is introduced to the page with a short and simple guide on how to play the game.
+        2. When entering the game, users are presented with a clear game board containing a
         3x3 grid of empty cells. It's visually evident that this is a game of Noughts & Crosses (Tic-Tac-Toe) as the grid resembles the games layout.
-        2. The simple guide is there to aid new users of how to play the game.
         3. The games title "Noughts & Crosses" and the player symbols, X and O, provide a clear indication of the games purpose.
         4. The user has option to click on any cell in the grid to make their move.
 
     2. As a First Time Visitor, I want to be able to easily navigate and understand the  games interface.
 
-        1. The games interface has been designed to be intuitive and usser-friendly. The game board is prominently displyed, and it's evident that users can click on the cells to make their move which is reinforced by the clear instructions.
+        1. The games interface has been designed to be intuitive and usser-friendly. The game board is prominently displyed, and it's evident that users can click on the cells to make their move which is reinforced by the clear instructions each time they return to the page.
         2. There are no distracting elements, and the game's layout is straightforward, ensuring that users can focus on playing the game without confusion.
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want toenjoy a game of Noughts & Crosses without any hassle or having to remember how to play the game.
 
-        1. The game board remains easily accessible, and players can quickly start a new game by clicking the "Reset Game" button.
-        2. Theres no need to navigate through complex menus or instructions, allowing returning visitors to jump right into the game.
+        1. When visitors return they are greeted by the pop up instructions to remind them if necessary how to play the game.
+        2. The game board remains easily accessible, and players can quickly start a new game by clicking the "Reset Game" button.
+        3. Theres no need to navigate through complex menus or instructions, allowing returning visitors to jump right into the game.
 
     2. As a Returning Visitor, I want to keep track of my wins.
         1. The game keeps a tally of wins for both Player 1 (X) and Player 2 (O). The scores are prominently displayed, allowing returning visitors to see their progress whilst they play the game.
