@@ -180,12 +180,13 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
 
         1. When entering the game, users are presented with a clear game board containing a
         3x3 grid of empty cells. It's visually evident that this is a game of Noughts & Crosses (Tic-Tac-Toe) as the grid resembles the games layout.
-        2. The games title "Noughts & Crosses" and the player symbols, X and O, provide a clear indication of the games purpose.
-        3. The user has option to click on any cell in the grid to make their move.
+        2. The simple guide is there to aid new users of how to play the game.
+        3. The games title "Noughts & Crosses" and the player symbols, X and O, provide a clear indication of the games purpose.
+        4. The user has option to click on any cell in the grid to make their move.
 
     2. As a First Time Visitor, I want to be able to easily navigate and understand the  games interface.
 
-        1. The games interface has been designed to be intuitive and usser-friendly. The game board is prominently displyed, and it's evident that users can click on the cells to make their move.
+        1. The games interface has been designed to be intuitive and usser-friendly. The game board is prominently displyed, and it's evident that users can click on the cells to make their move which is reinforced by the clear instructions.
         2. There are no distracting elements, and the game's layout is straightforward, ensuring that users can focus on playing the game without confusion.
 
 -   #### Returning Visitor Goals

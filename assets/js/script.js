@@ -95,3 +95,28 @@ resetButton.addEventListener("click", resetGame);
 
 // Setup a game
 resetBoard();
+
+//modal
+const modal = document.getElementById('instructionsModal');
+const closeModal = document.getElementById('closeModal');
+
+//Show the modal when the page loads
+function showModal() {
+  modal.style.display = 'block';
+}
+
+//close model when close button is clicked
+function closeInstructionsModal() {
+  modal.style.display = 'none';
+}
+
+//Close modal when clicking outside the modal
+function closeOnOutsideClick(event) {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+}
+
+window.onload = showModal;
+closeModal.onclick = closeInstructionsModal;
+window.onclick = closeOnOutsideClick;
