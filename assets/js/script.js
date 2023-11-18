@@ -30,6 +30,7 @@ function switchPlayer() {
   currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 }
 
+/*
 // Handle a win
 function handleWin(player) {
   if (player === 'X') {
@@ -48,6 +49,47 @@ function handleWin(player) {
 function handleDraw() {
   resetBoard();
   alert('Its a draw, try again!');
+}
+*/
+
+// Handle a win
+function handleWin(player) {
+  if (player === 'X') {
+      player1Score++;
+      player1ScoreElement.textContent = player1Score;
+  } else {
+      player2Score++;
+      player2ScoreElement.textContent = player2Score;
+  }
+
+  updateResultModal(`Player ${player} wins!`);
+  showResultModal();
+}
+
+// Handle a draw
+function handleDraw() {
+  updateResultModal('It\'s a draw, try again!');
+  showResultModal();
+}
+
+// Show the result modal
+function showResultModal() {
+  const resultModal = document.getElementById('resultModal');
+  resultModal.style.display = 'block';
+}
+
+// Close the result modal
+function closeResultModal() {
+  const resultModal = document.getElementById('resultModal');
+  resultModal.style.display = 'none';
+
+  resetBoard(currentPlayer);
+}
+
+// Update content of the result modal
+function updateResultModal(text) {
+  const resultText = document.getElementById('resultText');
+  resultText.textContent = text;
 }
 
 // Check for winner function
@@ -81,15 +123,15 @@ function resetGame() {
 }
 
 // Reset the board
-function resetBoard() {
+function resetBoard(startingPlayer = 'X') {
   board = ['', '', '', '', '', '', '', '', ''];
-  currentPlayer = 'X';
+  currentPlayer = startingPlayer;
   cells.forEach(cell => {
     cell.textContent = '';
     cell.className = 'cell';
   });
 }
-
+//Reset Buttoon
 const resetButton = document.querySelector(".resetButton");
 resetButton.addEventListener("click", resetGame);
 

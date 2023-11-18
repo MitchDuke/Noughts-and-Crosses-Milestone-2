@@ -8,6 +8,7 @@
     <title>Noughts & Crosses </title>
 </head>
 <body>
+    <!--Header and Logo Image-->
     <div class="header">
         <span>
             <img class="logo" src="assets/images/noughtsandcrosses_277642841_1000.jpg" alt="Noughts and Crosses board image">
@@ -16,7 +17,7 @@
             <h1>Noughts & Crosses</h1>
         </span>
     </div>
-
+    <!--Guide Modal to display guide at launch and on button-->
     <div class="modal container" id="instructionsModal">
         <div class="modal-content">
             <span class="close" id="closeModal">&times;</span>
@@ -25,9 +26,17 @@
             <p>Match 3 squares in a row vertically, horizontally or diagonally to score a point.</p>
             <p>Keep playing until a clear winner is decided or until you've had enough.</p>
             <p>Hit reset to restart the game.</p>
-            <p>Click anywhere to begin!</p>
+            <button class="button" onclick="closeInstructionsModal()">Click here to begin!</button>
         </div>
     </div>
+    <!--Result Modal-->
+    <div id="resultModal" class="modal container">
+        <div class="modal-content">
+            <p id="resultText"></p>
+            <button class="button" onclick="closeResultModal()">Close</button>
+        </div>
+    </div>    
+    <!--Game cells-->
     <div class="container">
         <div class="container" id="board">
             <div class="cell"></div>
@@ -41,6 +50,7 @@
             <div class="cell"></div>
         </div>
     </div>
+    <!--Scoreboard-->
     <div class="container">
         <div id="scoreboard">
             <h2>Score</h2>
@@ -48,14 +58,16 @@
             <p><i class="fas fa-circle"></i> <span id="player2Score">0</span> Player 2</p>
         </div>
     </div>
+    <!--Show Guide Button-->
     <div class="container">
         <span>
-            <button class="resetButton" role="button" onclick="showModal()">Guide</button>
+            <button class="button" role="button" onclick="showModal()">Guide</button>
         </span>
     </div>
+    <!--Reset Game Button-->
     <div class="container">
         <span>
-            <button class="resetButton" role="button">Reset Game</button>
+            <button class="resetButton button" role="button">Reset Game</button>
         </span>
     </div>
     <script src="./assets/js/script.js"></script>

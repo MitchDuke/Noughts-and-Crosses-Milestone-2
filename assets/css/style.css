@@ -46,7 +46,7 @@ h2 {
     flex-direction: column;
 }
 
-/*Modal*/
+/*Modals*/
 .modal {
     display:none;
     position: fixed;
@@ -129,7 +129,7 @@ p {
 
 /*Button Styling*/
 
-.resetButton  {
+.button  {
     background-color: initial;
     background-image: linear-gradient(-180deg, #FF7E31, #c71010);
     border-radius: 6px;
