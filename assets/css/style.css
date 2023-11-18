@@ -22,7 +22,7 @@ h1 {
     text-align: center;
     font-size: 3.5rem;
     color: rgb(199, 16, 16);
-    margin: 15px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 h2 {
@@ -109,7 +109,7 @@ h2 {
 }
 
 #scoreboard {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #player1Score,
@@ -120,6 +120,7 @@ h2 {
 p {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
+    margin: 10px 0 10px 0;
 }
 
 .guide {
@@ -154,6 +155,7 @@ p {
     z-index: 9;
     border: 0;
     transition: box-shadow .2s;
+    margin: 2px;
   }
   
   .button-42:hover {
