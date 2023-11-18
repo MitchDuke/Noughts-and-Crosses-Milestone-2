@@ -2,7 +2,7 @@
 
 [View the live project here.](https://mitchduke.github.io/Noughts-and-Crosses-Milestone-2/)
 
-This is a browser base game of noughts and crosses or tic tac toe to be played between two people for fun.
+This is a browser base game of noughts and crosses or tic tac toe to be played between two people for fun. The aim for this game is for two friends or family to be able to play together on the same browser to pass the time and have fun together.
 
 <h2 align="center"><img src="./assets/images/Wireframe_1.PNG"></h2>
 
@@ -25,6 +25,7 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 5.  [Testing](#testing)
     -   [Validation](#validation)
     -   [Performance](#performance)
+    -   [Manual Testing](#manual-testing)
     -   [Further Testing](#further-testing)
     -   [Further Improvements](#further-improvements)
     -   [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
@@ -155,6 +156,10 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
     -   <img src="./assets/images/Lighthouse_Mobile.PNG">
    
     The overall performance is high due its simplistic nature.
+
+### Manual Testing
+
+-   Each section has been manually tested to prove its functionality and the contraints of each feature.
 
 ### Further Testing
 
