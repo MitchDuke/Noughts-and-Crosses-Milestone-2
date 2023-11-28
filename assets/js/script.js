@@ -30,28 +30,6 @@ function switchPlayer() {
   currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 }
 
-/*
-// Handle a win
-function handleWin(player) {
-  if (player === 'X') {
-    player1Score++;
-    player1ScoreElement.textContent = player1Score;
-  } else {
-    player2Score++;
-    player2ScoreElement.textContent = player2Score;
-  }
-
-  resetBoard();
-  alert(`Player ${player} wins!`);
-}
-
-// Handle a draw
-function handleDraw() {
-  resetBoard();
-  alert('Its a draw, try again!');
-}
-*/
-
 // Handle a win
 function handleWin(player) {
   if (player === 'X') {

@@ -63,7 +63,7 @@ This is a browser base game of noughts and crosses or tic tac toe to be played b
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are  rgb (0, 0, 255) Blue for the board tiles, rgb(255, 0, 0) Red for the title and when "O" is played in a tile the its border turns red and rgb (175, 175, 175) grey for the backgroung based on feedback about large areas of white on screen made for a poor user experience.
+        -   The main colours used are  rgb (0, 0, 255) Blue for the board tiles, rgb(255, 0, 0) Red for the title and when "O" is played in a tile the its border turns red and rgb (175, 175,  175) grey for the backgroung based on feedback about large areas of white on screen made for a poor user experience.
     -   #### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site
             correctly. Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settle in to their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
@@ -121,10 +121,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Validation
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
-    [Results](https://github.com/)
+    [Results](https://github.com/MitchDuke/Noughts-and-Crosses-Milestone-2/tree/main/assets/images)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
-    (https://github.com/)
--   [ValidateJavaScript]https://validatejavascript.com/ - [Results](https://github.com/)
+    (https://github.com/MitchDuke/Noughts-and-Crosses-Milestone-2/tree/main/assets/images)
+-   [JSHint]https://jshint.com/ - [Results](https://github.com/MitchDuke/Noughts-and-Crosses-Milestone-2/tree/main/assets/images)
 
 -   Using the above mentioned validators the following error logs have been recorded and actioned upon.
     -   index.html error log
@@ -139,7 +139,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         -   <img src="./assets/images/CSS_Validate_3.PNG">
 
     -   JavaScript error log
-        -   <img src="./assets/images/JS_Validate_1.PNG">
+        -   <img src="./assets/images/JSHint1.PNG">
+        -   <img src="./assets/images/JSHint2.PNG">
+        -   <img src="./assets/images/JSHint3.PNG">
 
 ### Performance
 
@@ -159,7 +161,8 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
 
 ### Manual Testing
 
--   Each section has been manually tested to prove its functionality and the contraints of each feature.
+-   Each section has been manually tested to prove its functionality and the contraints of each feature. Each cell is clicked in and 
+    when you click twice nothing happens to prvent the cell being overwritten by the next player or by accidental activation.
 
 ### Further Testing
 
@@ -279,6 +282,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   [Font awesome](https://fontawesome.com/): Font Awesome was used through out the project to add styling to headings.
+-   [Beautiful CSS buttons examples](https://getcssscan.com/css-buttons-examples): The button styling was used on every button of the page. Button 62 was used in this page.
 
 ### Content
 
